@@ -17,7 +17,7 @@ public class B_2025_05_07_SliderEx extends JFrame {
         JSlider slider = new JSlider(JSlider.HORIZONTAL,0,200,100);
         slider.setPaintLabels(true);
         slider.setPaintTicks(true);
-        slider.setMajorTickSpacing(50);
+        slider.setMajorTickSpacing(50); // 눈금선 큰거 작은거 각각 표시하는 기능
         slider.setMinorTickSpacing(10);
         this.add(slider);    
         

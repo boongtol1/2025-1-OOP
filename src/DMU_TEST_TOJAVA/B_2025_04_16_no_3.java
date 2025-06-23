@@ -73,6 +73,10 @@ public class B_2025_04_16_no_3 extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 try {
                     FileWriter file = new FileWriter("/Users/boongtol/Desktop/student_info.txt");
+                    // "student_info.txt"라는 파일을 쓰기(write) 용도로 엽니다.
+                    // 해당 파일이 없으면 새로 생성합니다.
+                    // 이미 파일이 존재하면 기존 내용을 지우고 덮어씁니다.
+                    // Users/boongtol/Desktop/는 파일이 저장될 경로입니다
 
                     System.out.println("===== 저장된 학생 정보 =====");
                     for (B_2025_04_16_Student s : studentList) {

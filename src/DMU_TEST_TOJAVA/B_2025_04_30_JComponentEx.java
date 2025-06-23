@@ -19,6 +19,11 @@ public class B_2025_04_30_JComponentEx extends JFrame{
 		pan1.add(btn1);
 		pan1.add(btn2);
 		pan1.add(btn3);
+
+		btn1.setOpaque(true);                     // 불투명하게 만들어야 색이 보임
+		btn1.setContentAreaFilled(true);
+		btn1.setBorderPainted(false); // 테두리 제거
+ 
 		
 		btn1.setBackground(Color.YELLOW);
 		btn1.setForeground(Color.MAGENTA);

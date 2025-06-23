@@ -47,7 +47,8 @@ public class B_2025_04_16_Student {
     public String toString() {
         return "B_2025_04_16_Student [name=" + name + ", hb=" + hb + ", dept=" + dept + ", gwamok=" + gwamok + "]";
     }
-
+    
+    
    
 
 

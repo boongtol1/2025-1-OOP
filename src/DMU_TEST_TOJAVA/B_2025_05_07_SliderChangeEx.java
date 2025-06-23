@@ -20,7 +20,7 @@ public class B_2025_05_07_SliderChangeEx extends JFrame {
 
         for (int i = 0; i < sliders.length; i++) {
             sliders[i] = new JSlider(0, 255, 128);
-            sliders[i].setPaintLabels(true);
+            sliders[i].setPaintLabels(true);        //눈금선 및 숫자 표시
             sliders[i].setPaintTicks(true);
             sliders[i].setMajorTickSpacing(50);
             sliders[i].setMinorTickSpacing(10);

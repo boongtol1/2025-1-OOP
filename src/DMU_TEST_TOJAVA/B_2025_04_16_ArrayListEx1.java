@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class B_2025_04_16_ArrayListEx1 {
     public static void main(String[] args) {
-        ArrayList<String> nameList = new ArrayList<String>();
+        ArrayList<String> nameList = new ArrayList<String>();       // 일반적인 배열과의 제일 큰 차이?--> 가변 (원하는 만큼 추가 가능)!
         nameList.add("홍길동");
         nameList.add("이순신");     
         nameList.add("동미래");
@@ -33,12 +33,12 @@ public class B_2025_04_16_ArrayListEx1 {
         studentList.add(new B_2025_04_16_Student("이승훈", "20231554", "인공지능소프트웨어학과", "자바2"));
 
         for (B_2025_04_16_Student student : studentList) {
-            System.out.println(student);
+            System.out.println(student.toString());    // toString 안하고 그냥 println 해도 자동으로 toString 불러오도록 설계되어 있다!
         }
         System.out.println(" ***인공지능소프트웨어과 학생 목록***");
         for (B_2025_04_16_Student student : studentList) {
             if (student.getDept().equals("인공지능소프트웨어학과")) {
-                System.out.println(student);
+                System.out.println(student.toString());
             }
         }
     }
